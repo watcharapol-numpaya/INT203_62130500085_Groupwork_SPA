@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }, 
+  "photos": [
+    {
+    "id": 1,
+    "src": "assets/1.jpg",
+    "title": "Autumn",
+    "favor": false,
+    "like": 0
+    },
+    {
+    "id": 2,
+    "src": "images/2.jpg",
+    "title": "Hug & Love",
+    "favor": false,
+    "like": 0
+    }
+    ]
+  
+}
