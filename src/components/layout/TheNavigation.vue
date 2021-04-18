@@ -1,9 +1,9 @@
 <template>
  
-  <nav class="bg-yellow-500  h-10">
+  <nav class="bg-yellow-500  h-10 ">
     <div class="p-1 flex justify-between items-center">
       <div class="">
-        <router-link to="">
+        <router-link to="/">
           <img
             src="./../../assets/icons/logo-store.svg"
             class="h-8 ml-12 mr-12"
