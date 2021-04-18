@@ -23,7 +23,7 @@
           /></router-link>
         </div>
         <div>
-          <router-link to="">
+          <router-link to="@/views/ShowOrder">
             <img
               src="./../../assets/icons/shopping-cart.svg"
               class="h-4"

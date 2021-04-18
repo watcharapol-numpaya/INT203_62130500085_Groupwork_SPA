@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white m-1">
     <div class="">
-      <div class="absolute ml-36 mt-1" @click="addToCart(i)">
+      <div class="absolute ml-36 mt-1" @click="addToCart()">
         <router-link to="/">
           <img
             src="@/assets/icons/add_shopping_cart.svg"
@@ -25,20 +25,44 @@ let i = 1;
 export default {
   data() {
     return {
-      
+      url: "http://localhost:5000/order",
       Currency: "THB",
+      id: 1,
+      order: [],
     };
   },
 
   props: ["game-list"],
   methods: {
-
-    addToCart(){
-        this.i =i++
-      
-      console.log(this.i)
-    }
-
+    addToCart() {
+      this.i = i++;
+      this.addNewItem({
+        title: this.title,
+        price: this.gameList.title,
+        src: this.src,
+        description: this.description,
+      });
+      console.log(this.i);
+    },
+    async addNewItem(addItem) {
+      try {
+        await fetch(this.url, {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify({
+            title: addItem.title,
+          }),
+        });
+      } catch (error) {
+        console.log("error");
+      }
+    },
+    async created() {
+      this.addItem = await this.fetchAddItem();
+    },
+    
   },
 };
 </script>
