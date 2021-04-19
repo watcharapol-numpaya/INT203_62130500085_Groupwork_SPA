@@ -1,13 +1,13 @@
 <template>
   <div>
-     
     <!-- <base-search> </base-search> -->
     <ul class="grid grid-cols-4 mt-8">
-      <base-show-item  c
+               
+      <base-show-item
         v-for="gameList in gameLists"
         :key="gameList.id"
         :game-list="gameList"
-      >
+      > 
       </base-show-item>
     </ul>
   </div>
@@ -22,7 +22,6 @@ export default {
     BaseShowItem,
     //BaseSearch,
   },
-  
 
   data() {
     return {

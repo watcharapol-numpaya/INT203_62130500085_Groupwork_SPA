@@ -37,7 +37,7 @@ export default {
     async fetchGetItem() {
       const res = await fetch(this.url);
       const data = await res.json();
-      
+
       return data;
     },
     addToCart() {
@@ -48,8 +48,6 @@ export default {
         src: this.gameList.src,
         description: this.gameList.description,
       });
-
-      console.log(this.countItem);
     },
     async addNewItem(addItem) {
       try {
