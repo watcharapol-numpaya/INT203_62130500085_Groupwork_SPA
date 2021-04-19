@@ -1,145 +1,22 @@
 {
-  "gameLists": [
+  "order": [
     {
-      "title": "Battlefield 5",
-      "src": "battlefield5.jpg",
-      "description": "นี่คือประสบการณ์การเล่น Battlefield™ V ที่สมบูรณ์ที่สุด เข้าร่วมความขัดแย้งที่ยิ่งใหญ่ที่สุดของมนุษยชาติด้วยอาวุธ พาหนะ และอุปกรณ์ต่างๆ ครบทั้งหมดรวมถึงคอนเทนต์ปรับแต่งที่ดีที่สุดของ Year 1 และ 2",
-      "price": 474
-    },
-    {
-      "title": "Havest Moon",
-      "src": "harvestMoon.jpg",
-      "description": "In celebration of Harvest Moon's 20th Anniversary comes an all new Harvest Moon title for Steam! Harvest Moon: Light of Hope Special Edition! The game encompasses twenty years of the spirit that have made the franchise what it is today!",
-      "price": 289
+      "title": "Need For Speed",
+      "price": 799,
+      "src": "needForSpeed.jpg",
+      "description": "Need for Speed™ Payback - Deluxe Edition จะมอบความได้เปรียบในการแข่งขันให้คุณ โดดเด่นกว่าใครๆ ด้วยไอเท็มปรับแต่งสุดพิเศษและรับส่วนลดในเกม โบนัสชื่อเสียง กับ 5 Shipment เพื่อเริ่มต้นการผจญภัยของคุณ",
+      "id": 4
     },
     {
       "title": "Need For Speed",
+      "price": 799,
       "src": "needForSpeed.jpg",
       "description": "Need for Speed™ Payback - Deluxe Edition จะมอบความได้เปรียบในการแข่งขันให้คุณ โดดเด่นกว่าใครๆ ด้วยไอเท็มปรับแต่งสุดพิเศษและรับส่วนลดในเกม โบนัสชื่อเสียง กับ 5 Shipment เพื่อเริ่มต้นการผจญภัยของคุณ",
-      "price": 799
-    },
-    {
-      "title": "BattleBox Theater",
-      "src": "battleBoxTheater.jpg",
-      "description": "Welcome to BattleBlock Theater! You’ve got no where to go but up...on stage. Play single player or co-op to free your friends and save Hatty Hattington! Jump, solve and battle your way through a mysterious theater inhabited by highly technological felines.",
-      "price": 239
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
-    },
-    {
-      "title": "Dead by Daylight",
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "price": 279
+      "id": 5
     }
   ],
-  "photos": [
-    {
-      "id": 1,
-      "src": "assets/1.jpg",
-      "title": "Autumn",
-      "favor": false,
-      "like": 0
-    },
-    {
-      "id": 2,
-      "src": "images/2.jpg",
-      "title": "Hug & Love",
-      "favor": false,
-      "like": 0
-    }
-  ],
-  "order": [
-    {
-      "title": "Battlefield 5",
-      "price": 474,
-      "src": "battlefield5.jpg",
-      "description": "นี่คือประสบการณ์การเล่น Battlefield™ V ที่สมบูรณ์ที่สุด เข้าร่วมความขัดแย้งที่ยิ่งใหญ่ที่สุดของมนุษยชาติด้วยอาวุธ พาหนะ และอุปกรณ์ต่างๆ ครบทั้งหมดรวมถึงคอนเทนต์ปรับแต่งที่ดีที่สุดของ Year 1 และ 2",
-      "id": 1
-    },
-    {
-      "title": "Dead by Daylight",
-      "price": 279,
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "id": 2
-    },
-    {
-      "title": "Dead by Daylight",
-      "price": 279,
-      "src": "Dead-by-Daylight.jpg",
-      "description": "Dead by Daylight เป็นเกมสยองขวัญแบบผู้เล่นหลายคน (4 ต่อ 1) ซึ่งผู้เล่นหนึ่งคนจะรับบทบาทเป็นฆาตกรป่าเถื่อน และอีกสี่คนจะเล่นเป็นผู้รอดชีวิตที่พยายามหลบหนีจากฆาตกรและหลบเลี่ยงไม่ให้ถูกจับ ถูกทรมาน และถูกฆ่า",
-      "id": 3
-    }
-  ]
+  "wallet": {
+    "money": 99600,
+    "id": 1
+  }
 }

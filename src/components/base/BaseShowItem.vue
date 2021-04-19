@@ -37,7 +37,7 @@ export default {
     async fetchGetItem() {
       const res = await fetch(this.url);
       const data = await res.json();
-      // parses JSON response into native JavaScript objects
+      
       return data;
     },
     addToCart() {

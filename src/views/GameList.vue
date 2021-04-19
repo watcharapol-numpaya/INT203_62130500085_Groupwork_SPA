@@ -1,9 +1,9 @@
 <template>
   <div>
      
-    <base-search> </base-search>
-    <ul class="grid grid-cols-4">
-      <base-show-item
+    <!-- <base-search> </base-search> -->
+    <ul class="grid grid-cols-4 mt-8">
+      <base-show-item  c
         v-for="gameList in gameLists"
         :key="gameList.id"
         :game-list="gameList"
@@ -15,12 +15,12 @@
 
 <script>
 import BaseShowItem from "../components/base/BaseShowItem.vue";
-import BaseSearch from "../components/base/BaseSearch.vue";
+//import BaseSearch from "../components/base/BaseSearch.vue";
 
 export default {
   components: {
     BaseShowItem,
-    BaseSearch,
+    //BaseSearch,
   },
   
 
