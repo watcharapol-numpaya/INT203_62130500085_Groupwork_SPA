@@ -3,6 +3,7 @@
     <div class="bg-white shadow-2xl w-96 rounded-2xl p-2">
       <div class="border-b-2 pb-2">
         <h1>My Order</h1>
+
         <h1>My wallet : {{ wallet.money }} {{ currency }}</h1>
       </div>
 
@@ -53,44 +54,44 @@ export default {
   },
 
   methods: {
-    // payment() {
-    //   let sum = 0;
+    payment() {
+      let sum = 0;
+      console.log(this.wallet.id);
+      console.log(this.orders[0].price);
 
-    //   console.log(this.orders[0].price);
+      for (let i = 0; i < this.orders.length; i++) {
+        sum += this.orders[i].price;
+        console.log(this.orders[i].price);
+      }
 
-    //   for (let i = 0; i < this.orders.length; i++) {
-    //     sum += this.orders[i].price;
-    //      console.log(this.orders[i].price);
-    //   }
+      this.wallet.money -= sum;
+      console.log(this.wallet.money + "money");
+      console.log(this.wallet.id + ":id");
 
-    //   this.wallet.money -= sum;
-    //   console.log(this.wallet.money+"money");
-    //   console.log(this.wallet.id+":id");
+      this.updateWallet(this.wallet);
+    },
 
-    //   this.updateWallet(this.wallet.id)
-    // },
+    async updateWallet(updateMoney) {
+      console.log(updateMoney + " : update id");
+      await fetch(`${this.urlPayment}`, {
+        method: "PUT",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({
+          money: updateMoney.money,
+          id: updateMoney.id
+        }),
+      });
+    },
 
-    // async updateWallet(editingData) {
-    //   console.log(editingData + " : update id");
-    //   await fetch(`${this.urlPayment}`, {
-    //     method: "PUT",
-    //     headers: {
-    //       "Content-type": "application/json",
-    //     },
-    //     body: JSON.stringify({
-    //       money: editingData.money,
-    //     }),
-    //   });
-    // },
     async deleteItem(deleteId) {
       try {
         await fetch(`${this.urlOrder}/${deleteId}`, {
           method: "DELETE",
         });
-      
-        this.orders = this.orders.filter(
-          (order) => order.id !== deleteId
-        );
+
+        this.orders = this.orders.filter((order) => order.id !== deleteId);
       } catch (error) {
         console.log(`Could not delete! ${error}`);
       }
@@ -98,13 +99,13 @@ export default {
     async fetchGetItem() {
       const res = await fetch(this.urlOrder);
       const data = await res.json();
- 
+
       return data;
     },
     async fetchGetWallet() {
       const res = await fetch(this.urlPayment);
       const data = await res.json();
- 
+
       return data;
     },
   },
