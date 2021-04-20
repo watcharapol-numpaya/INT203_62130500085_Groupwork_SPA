@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-yellow-500  py-1">
+  <nav class="bg-yellow-500 py-2">
     <div class="p-1 flex justify-between items-center">
       <div class="">
         <router-link to="/">
@@ -10,7 +10,7 @@
         /></router-link>
       </div>
 
-      <div class="flex space-x-3 mr-6  ">
+      <div class="flex space-x-3 mr-6">
         <!-- <div class=" ">
           <router-link to="">
             <img src="./../../assets/icons/user.svg" class="h-4" alt="user"
@@ -22,7 +22,6 @@
           /></router-link>
         </div> -->
         <div class=" ">
-         
           <router-link to="@/views/ShowOrder">
             <img
               src="./../../assets/icons/shopping-cart.svg"
@@ -35,7 +34,7 @@
     </div>
   </nav>
 
-  <!-- ----------- -->
+ 
 </template>
 
 
@@ -60,19 +59,8 @@ export default {
 
       return data;
     },
-    async fetchGetWallet() {
-      const res = await fetch(this.urlPayment);
-      const data = await res.json();
-
-      return data;
-    },
   },
-  async fetchGetItem() {
-    const res = await fetch(this.urlOrder);
-    const data = await res.json();
 
-    return data;
-  },
   async created() {
     this.orders = await this.fetchGetItem();
   },

@@ -1,6 +1,8 @@
 <template>
   <div class="bg-white m-1">
     <div class="">
+       
+      
       <div class="absolute ml-36 mt-1" @click="addToCart()">
         <router-link to="/">
           <img
@@ -21,27 +23,36 @@
 
 
 <script>
-let i = 1;
+ 
 export default {
   data() {
     return {
-      url: "http://localhost:5000/order",
+      urlOrder: "http://localhost:5000/order",
+      urlGameLists: "http://localhost:5000/gameLists",
       Currency: "THB",
-      orders: [],
-      countItem: 0,
+      
+      
+       
     };
   },
 
   props: ["game-list"],
   methods: {
-    async fetchGetItem() {
-      const res = await fetch(this.url);
-      const data = await res.json();
+    // async fetchGetItemInOrder() {
+    //   const res = await fetch(this.urlOrder);
+    //   const data = await res.json();
 
-      return data;
-    },
+    //   return data;
+    // },
+    // async fetchGetItemGameLists() {
+    //   const res = await fetch(this.urlGameLists);
+    //   const data = await res.json();
+
+    //   return data;
+    // },
     addToCart() {
-      this.countItem = i++;
+       
+       
       this.addNewItem({
         title: this.gameList.title,
         price: this.gameList.price,
@@ -51,7 +62,7 @@ export default {
     },
     async addNewItem(addItem) {
       try {
-        await fetch(this.url, {
+        await fetch(this.urlOrder, {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -68,8 +79,9 @@ export default {
       }
     },
   },
-  async created() {
-    this.orders = await this.fetchAddItem();
-  },
+  // async created() {
+  //   this.orders = await this.fetchGetItemInOrder();
+  //   this.gameStore = await this.fetchGetItemGameLists();
+  // },
 };
 </script>

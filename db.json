@@ -1,28 +1,13 @@
 {
-  "gameLists": [
-    {
-      "title": "Battlefield 5",
-      "src": "battlefield5.jpg",
-      "description": "นี่คือประสบการณ์การเล่น Battlefield™ V ที่สมบูรณ์ที่สุด เข้าร่วมความขัดแย้งที่ยิ่งใหญ่ที่สุดของมนุษยชาติด้วยอาวุธ พาหนะ และอุปกรณ์ต่างๆ ครบทั้งหมดรวมถึงคอนเทนต์ปรับแต่งที่ดีที่สุดของ Year 1 และ 2",
-      "price": 474
-    },
-    {
-      "title": "Havest Moon",
-      "src": "harvestMoon.jpg",
-      "description": "In celebration of Harvest Moon's 20th Anniversary comes an all new Harvest Moon title for Steam! Harvest Moon: Light of Hope Special Edition! The game encompasses twenty years of the spirit that have made the franchise what it is today!",
-      "price": 289
-    }
-  ],
-  "order": [
-    {
-      "title": "BattleBox Theater",
-      "price": 239,
-      "src": "battleBoxTheater.jpg",
-      "description": "Welcome to BattleBlock Theater! You’ve got no where to go but up...on stage. Play single player or co-op to free your friends and save Hatty Hattington! Jump, solve and battle your way through a mysterious theater inhabited by highly technological felines.",
-      "id": 1
-    }
-  ],
+
+  "order": [{
+    "title": "Battlefield 5",
+    "price": 474,
+    "src": "battlefield5.jpg",
+    "description": "นี่คือประสบการณ์การเล่น Battlefield™ V ที่สมบูรณ์ที่สุด เข้าร่วมความขัดแย้งที่ยิ่งใหญ่ที่สุดของมนุษยชาติด้วยอาวุธ พาหนะ และอุปกรณ์ต่างๆ ครบทั้งหมดรวมถึงคอนเทนต์ปรับแต่งที่ดีที่สุดของ Year 1 และ 2",
+    "id": 1
+  }],
   "wallet": {
-    "money": 9867737
+    "money": 92009
   }
 }

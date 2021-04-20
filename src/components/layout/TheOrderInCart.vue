@@ -3,7 +3,7 @@
     <div class="bg-white shadow-2xl rounded-2xl w-96 p-6">
       <div class="border-b-2 pb-2 justify-between flex">
         <h1>My Order</h1>
-    
+
         <h1>My wallet : {{ wallet.money }} {{ currency }}</h1>
       </div>
 
@@ -58,7 +58,7 @@ export default {
       orders: [],
       wallet: [],
       currency: "THB",
-      hasItem: false,
+      
     };
   },
   computed: {
@@ -111,7 +111,7 @@ export default {
         console.log(`Could not delete! ${error}`);
       }
     },
-    async fetchGetItem() {
+    async fetchGetItemInOrder() {
       const res = await fetch(this.urlOrder);
       const data = await res.json();
 
@@ -126,7 +126,7 @@ export default {
   },
 
   async created() {
-    this.orders = await this.fetchGetItem();
+    this.orders = await this.fetchGetItemInOrder();
     this.wallet = await this.fetchGetWallet();
   },
 };
