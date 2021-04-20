@@ -30,7 +30,7 @@ export default {
       urlOrder: "http://localhost:5000/order",
       urlGameLists: "http://localhost:5000/gameLists",
       Currency: "THB",
-      
+      orders: [],
       
        
     };

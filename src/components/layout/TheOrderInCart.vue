@@ -27,6 +27,12 @@
           {{ order.price }} {{ currency }}
           <hr class="mt-2" />
         </li>
+        <div
+          class="text-center m-2 border bg-red-400"
+          v-show="!this.orders.length"
+        >
+          <p class="">No Item In Cart</p>
+        </div>
 
         <div v-show="this.orders.length">
           <h1>My Wallet : {{ this.wallet.money }} {{ currency }}</h1>
@@ -58,7 +64,7 @@ export default {
       orders: [],
       wallet: [],
       currency: "THB",
-      
+      hasItem: false,
     };
   },
   computed: {
